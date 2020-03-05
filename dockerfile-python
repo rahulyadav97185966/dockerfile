@@ -1,0 +1,5 @@
+FROM docker.io/centos
+COPY demo.py /root/demo.py
+RUN yum install pyhton2 -y
+CMD ["python2", "/root/demo.py"]
+~                                     
