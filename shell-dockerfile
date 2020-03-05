@@ -1,0 +1,6 @@
+FROM docker.io/centos
+copy demo.sh /root/demo.sh
+CMD ["shell" , "/root/demo.sh"]
+~                                                                                                                                                                            
+~                                                                                                                                                                            
+~                                   
