@@ -1,0 +1,4 @@
+FROM docker.io/centos
+MAINTAINER "sagar sagar@gmail.com"
+COPY unnati /root/mydata
+RUN echo " hello sagar" > /root/mydata/sagar.txt
